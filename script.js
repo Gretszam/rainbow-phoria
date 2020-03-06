@@ -17,60 +17,62 @@ function changePig(event) {
     }
 }
 
+
 window.addEventListener("keypress", changePageColor);
 let body = document.body
 
 function changePageColor(event) {
-    if (event.key === "b"){
+    if (event.key === "b") {
         body.style.background = "blue";
-    } else if (event.key === "a")
+    } else if (event.key === "a") {
         body.style.background = "#FFBF00";
-    } else if (event.key === "c")
+    } else if (event.key === "c") {
         body.style.background = "#592720";
-    } else if (event.key === "d")
+    } else if (event.key === "d") {
         body.style.background = "#8FBC8F";
-    } else if (event.key === "e")
+    } else if (event.key === "e") {
         body.style.background = "#8C1AFF";
-    } else if (event.key === "f")
+    } else if (event.key === "f") {
         body.style.background = "#4F7942";
-    } else if (event.key === "g")
+    } else if (event.key === "g") {
         body.style.background = "green";
-    } else if (event.key === "h")
+    } else if (event.key === "h") {
         body.style.background = "#FF69B4";
-    } else if (event.key === "i")
+    } else if (event.key === "i") {
         body.style.background = "ivory";
-    } else if (event.key === "j")
+    } else if (event.key === "j") {
         body.style.background = "#1AFF1A";
-    } else if (event.key === "k")
+    } else if (event.key === "k") {
         body.style.background = "#3AB09E";
-    } else if (event.key === "l")
+    } else if (event.key === "l") {
         body.style.background = "#6B8E23";
-    } else if (event.key === "m")
+    } else if (event.key === "m") {
         body.style.background = "#800000";
-    } else if (event.key === "n")
+    } else if (event.key === "n") {
         body.style.background = "#F6ADC6";
-    } else if (event.key === "o")
+    } else if (event.key === "o") {
         body.style.background = "orange";
-    } else if (event.key === "p")
+    } else if (event.key === "p") {
         body.style.background = "purple";
-    } else if (event.key === "q")
+    } else if (event.key === "q") {
         body.style.background = "#80FFD4";
-    } else if (event.key === "r")
+    } else if (event.key === "r") {
         body.style.background = "red";
-    } else if (event.key === "s")
+    } else if (event.key === "s") {
         body.style.background = "#E9967A";
-    } else if (event.key === "t")
+    } else if (event.key === "t") {
         body.style.background = "#008080";
-    } else if (event.key === "u")
+    } else if (event.key === "u") {
         body.style.background = "#635147";
-    } else if (event.key === "v")
+    } else if (event.key === "v") {
         body.style.background = "violet";
-    } else if (event.key === "w")
+    } else if (event.key === "w") {
         body.style.background = "#A4F4F9";
-    } else if (event.key === "x")
+    } else if (event.key === "x") {
         body.style.background = "#738678";
-    } else if (event.key === "y")
+    } else if (event.key === "y") {
         body.style.background = "#FFFF99";
-    } else if (event.key === "z")
+    } else if (event.key === "z") {
         body.style.background = "#CC99FF";
+    }
 }
