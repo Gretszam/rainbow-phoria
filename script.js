@@ -2,7 +2,7 @@ let container = document.getElementById("container");
 let img = document.getElementById("img");
 
 container.addEventListener("click", (event) => {
-  moveThing(event)
+    moveThing(event)
 });
 
 function moveImg(event) {
