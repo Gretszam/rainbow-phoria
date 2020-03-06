@@ -10,6 +10,7 @@ waddles.addEventListener('mouseout', (event) => {
 function changePig(event) {
     let pigBox = event.target;
     let change = pigBox.style.backgroundColor;
+    console.log(pigBox)
     if (change == "#ADD8E6") {
         pigBox.style.backgroundColor = "#9ACD32";
     } else {
@@ -21,11 +22,11 @@ window.addEventListener("keypress", changePageColor);
 let body = document.body
 
 function changePageColor(event) {
-        if (event.key === "b"){
+    if (event.key === "b") {
         body.style.background = "blue";
     } else if (event.key === "a") {
         body.style.background = "#FFBF00";
-    }else if (event.key === "c") {
+    } else if (event.key === "c") {
         body.style.background = "#592720";
     } else if (event.key === "d") {
         body.style.background = "#8FBC8F";
@@ -73,5 +74,5 @@ function changePageColor(event) {
         body.style.background = "#FFFF99";
     } else if (event.key === "z") {
         body.style.background = "#CC99FF";
-}
+    }
 }
