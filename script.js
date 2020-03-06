@@ -1,4 +1,4 @@
-let background = document.getElementById("waddles");
+var waddles = document.getElementById("waddles");
 
 waddles.addEventListener('mouseover', (event) => {
     changePig(event);
