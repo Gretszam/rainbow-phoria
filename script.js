@@ -60,17 +60,17 @@ function changePageColor(event) {
     } else if (event.key === "s")
         body.style.background = "#E9967A";
     } else if (event.key === "t")
-        body.style.background = "#";
+        body.style.background = "#008080";
     } else if (event.key === "u")
-        body.style.background = "#";
+        body.style.background = "#635147";
     } else if (event.key === "v")
         body.style.background = "violet";
     } else if (event.key === "w")
-        body.style.background = "";
+        body.style.background = "#A4F4F9";
     } else if (event.key === "x")
-        body.style.background = "";
+        body.style.background = "#738678";
     } else if (event.key === "y")
         body.style.background = "#FFFF99";
     } else if (event.key === "z")
-        body.style.background = "";
+        body.style.background = "#CC99FF";
 }
