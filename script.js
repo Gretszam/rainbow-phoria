@@ -1,11 +1,11 @@
 let container = document.getElementById("container");
-let thing = document.getElementById("thing");
+let img = document.getElementById("img");
 
 container.addEventListener("click", (event) => {
   moveThing(event)
 });
 
-function moveThing(event) {
+function moveImg(event) {
     let xPosition = event.clientX;
     let yPosition = event.clientY;
     thing.style.left = xPosition + "px";
