@@ -1,21 +1,15 @@
-var waddles = document.getElementById("waddles");
+let container = document.getElementById("container");
+let thing = document.getElementById("thing");
 
-waddles.addEventListener('mouseover', (event) => {
-    changePig(event);
-});
-waddles.addEventListener('mouseout', (event) => {
-    changePig(event);
+container.addEventListener("click", (event) => {
+    moveThing(event)
 });
 
-function changePig(event) {
-    let pigBox = event.target;
-    let change = pigBox.style.backgroundColor;
-    console.log(pigBox)
-    if (change == "#ADD8E6") {
-        pigBox.style.backgroundColor = "#9ACD32";
-    } else {
-        pigBox.style.backgroundColor = "#ADD8E6";
-    }
+function moveThing(event) {
+    let xPosition = event.clientX;
+    let yPosition = event.clientY;
+    thing.style.left = xPosition + "px";
+    thing.style.top = yPosition + "px";
 }
 
 window.addEventListener("keypress", changePageColor);

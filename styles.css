@@ -1,9 +1,18 @@
 .pig {
     width: 400px;
+    margin-left: 20%;
+    margin-top: 17%
 }
 
 #waddles {
     background-color: lightblue;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
+}
+
+.dance {
+    margin-left: 150px;
+    font-size:50px;
+    font-family: impact;
+    color: black;
 }
