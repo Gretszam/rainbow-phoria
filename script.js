@@ -2,10 +2,10 @@ var waddles = document.getElementById("waddles");
 
 waddles.addEventListener('mouseover', (event) => {
     changePig(event);
-})
+});
 waddles.addEventListener('mouseout', (event) => {
     changePig(event);
-})
+});
 
 function changePig(event) {
     let pigBox = event.target;
