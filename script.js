@@ -16,3 +16,25 @@ function changePig(event) {
         pigBox.style.backgroundColor = "ADD8E6";
     }
 }
+
+window.addEventListener("keypress", changePageColor);
+let body = document.body
+
+function changePageColor(event) {
+    if (event.key === "b"){
+        body.style.background = "blue";
+    } else if (event.key === "o") {
+        body.style.background = "orange";
+    } else if (event.key === "g"){
+        body.style.background = "green";
+    } else if (event.key === "v"){
+        body.style.background = "violet";
+    } else if (event.key === "y")
+        body.style.background = "yellow";
+    } else if (event.key === "p")
+        body.style.background = "purple";
+    } else if (event.key === "d")
+        body.style.background = "#8FBC8F";
+    } else if (event.key === "s")
+        body.style.background = "#E9967A";
+}
