@@ -1,8 +1,8 @@
-let container = document.getElementById("container");
-let img = document.getElementById("img");
+var img = document.getElementById("img");
+var container = document.getElementById("container");
 
 container.addEventListener("click", (event) => {
-    moveThing(event)
+    moveImg(event)
 });
 
 function moveImg(event) {
