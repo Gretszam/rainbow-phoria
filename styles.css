@@ -9,8 +9,8 @@
 
 #img {
     position: relative;
-    margin-left: 130px;
-    margin-top: 150px;
+    margin-left: 13px;
+    margin-top: 15px;
     width: 200px;
     height: 200px;
     transition: left .5s ease-in, top .5s ease-in;
