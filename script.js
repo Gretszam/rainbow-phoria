@@ -4,9 +4,8 @@ var container = document.getElementById("container");
 container.addEventListener("click", moveImg, false);
 
 function moveImg(event) {
-    var parentPosition = getPosition(container)
-    var xPosition = event.clientX - parentPosition.x - (img.clientWidth / 2);
-    var yPosition = event.clientY - parentPosition.y - (img.clientHeight / 2);
+    var xPosition = event.clientX
+    var yPosition = event.clientY
     img.style.left = xPosition + "px";
     img.style.top = yPosition + "px";
 }
