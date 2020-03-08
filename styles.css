@@ -1,18 +1,19 @@
 #container {
-    position: relative;
+    position: absolute;
     left: 100px;
-    width: 500;
-    height: 500;
+    width: 500px;
+    height: 500px;
     cursor: pointer;
     background-color: cyan;
 }
 
 #img {
-    position: absolute;
+    position: relative;
     margin-left: 130px;
-    margin-top: 100px;
-    width: 300px;
-    height: 300px;
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    transition: left .5s ease-in, top .5s ease-in;
 }
 .dance {
     margin-left: 200px;

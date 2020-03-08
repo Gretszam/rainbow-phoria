@@ -1,13 +1,12 @@
 var img = document.getElementById("img");
 var container = document.getElementById("container");
 
-container.addEventListener("click", (event) => {
-    moveImg(event)
-});
+container.addEventListener("click", moveImg, false);
 
 function moveImg(event) {
-    let xPosition = event.clientX;
-    let yPosition = event.clientY;
+    var parentPosition = getPosition(event.currentTarget)
+    let xPosition = event.clientX - parentPosition.x - (img.clientWidth / 2);
+    let yPosition = event.clientY - parentPosition.y - (img.clientHeight / 2);
     thing.style.left = xPosition + "px";
     thing.style.top = yPosition + "px";
 }
