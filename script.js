@@ -4,11 +4,11 @@ var container = document.getElementById("container");
 container.addEventListener("click", moveImg, false);
 
 function moveImg(event) {
-    var parentPosition = getPosition(event.currentTarget)
+    var parentPosition = getPosition(container)
     let xPosition = event.clientX - parentPosition.x - (img.clientWidth / 2);
     let yPosition = event.clientY - parentPosition.y - (img.clientHeight / 2);
-    thing.style.left = xPosition + "px";
-    thing.style.top = yPosition + "px";
+    img.style.left = xPosition + "px";
+    img.style.top = yPosition + "px";
 }
 
 window.addEventListener("keypress", changePageColor);
