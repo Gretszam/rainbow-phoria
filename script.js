@@ -11,17 +11,15 @@ function moveImg(event) {
 }
 
 var dance = document.getElementById("dance");
-dance.addEventListener('click', (event) => {
-    wordColor(event);
-});
+dance.addEventListener("click", wordColor, false);
 
 function wordColor(event) {
-    let dance = event.target;
-    let color = dance.style.color;
-    if(color == "#000080") {
-        dance.style.color = "black";
+    let word = event.target;
+    let color = word.style.color;
+    if (color == "#000080") {
+        word.style.color = "black";
     } else {
-        dance.style.color = "#000080";
+        word.style.color = "#000080";
     }
 }
 
