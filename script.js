@@ -10,18 +10,19 @@ function moveImg(event) {
     img.style.top = yPosition + "px";
 }
 
-var dance = document.getElementById("dance");
-dance.addEventListener("click", wordColor, false);
+var word = document.getElementById("dance");
+word.addEventListener("click", wordColor, false);
 
-function wordColor(event) {
+function wordColor{
     let word = event.target;
     let color = word.style.color;
-    if (color == "#000080") {
-        word.style.color = "black";
+    if(color == "black"){
+        word.style.color = "cornflowerblue";
     } else {
-        word.style.color = "#000080";
+        word.style.color = "black";
     }
 }
+
 
 window.addEventListener("keypress", changePageColor);
 let body = document.body
