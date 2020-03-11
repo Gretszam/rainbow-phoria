@@ -11,8 +11,7 @@ function moveImg(event) {
 }
 
 var word = document.getElementById("dance");
-word.addEventListener("click", (event) => {
-    wordColor(event);
+word.addEventListener("click", wordColor;
 });
 
 function wordColor{
