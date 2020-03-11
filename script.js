@@ -10,21 +10,6 @@ function moveImg(event) {
     img.style.top = yPosition + "px";
 }
 
-var word = document.getElementById("dance");
-word.addEventListener("click", wordColor;
-});
-
-function wordColor{
-    let word = event.target;
-    let color = word.style.color;
-    if(color == "black"){
-        word.style.color = "cornflowerblue";
-    } else {
-        word.style.color = "black";
-    }
-}
-
-
 window.addEventListener("keypress", changePageColor);
 let body = document.body
 
@@ -81,5 +66,18 @@ function changePageColor(event) {
         body.style.background = "#FFFF99";
     } else if (event.key === "z") {
         body.style.background = "#CC99FF";
+    }
+}
+
+var word = document.getElementById("dance");
+word.addEventListener('click', wordColor);
+
+function wordColor(event){
+    let word = event.target;
+    let hue = word.style.color;
+    if(hue == "black"){
+        word.style.color = "cornflowerblue";
+    } else {
+        word.style.color = "black";
     }
 }
