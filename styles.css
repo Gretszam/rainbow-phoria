@@ -15,9 +15,9 @@
     height: 200px;
     transition: left .5s ease-in, top .5s ease-in;
 }
-.dance {
+#dance {
     margin-left: 200px;
     font-size:50px;
     font-family: impact;
-    color: black;
+    color: cornflowerblue;
 }

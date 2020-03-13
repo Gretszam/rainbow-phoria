@@ -69,3 +69,16 @@ function changePageColor(event) {
         body.style.background = "#CC99FF";
     }
 }
+
+var word = document.getElementById("dance");
+word.addEventListener('click', wordColor);
+
+function wordColor(event){
+    let word = event.target;
+    let hue = word.style.color;
+    if(hue == "black"){
+        word.style.color = "cornflowerblue";
+    } else {
+        word.style.color = "black";
+    }
+}
