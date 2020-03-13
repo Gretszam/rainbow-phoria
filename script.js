@@ -10,6 +10,7 @@ function moveImg(event) {
     img.style.top = yPosition + "px";
 }
 
+
 window.addEventListener("keypress", changePageColor);
 let body = document.body
 
